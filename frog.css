@@ -43,3 +43,25 @@
     background-color: purple;
     flex: 1;
 }
+
+.level3 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.level3 .zold {
+    background-color: green;
+    flex: 1;
+}
+
+.level3 .sarga {
+    background-color: yellow;
+    flex: 2;
+}
+
+.level3 .lila {
+    background-color: purple;
+    flex: 1;
+}
