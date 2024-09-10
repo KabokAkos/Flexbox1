@@ -1,19 +1,45 @@
-.level{
+.level1 {
     width: 100%;
     height: 300px;
     display: flex;
     flex-direction: row;
 }
-#zold, #sarga, #lila {
+
+.level1 .zold, .level1 .sarga, .level1 .lila {
     flex-grow: 1;
     height: 100px;
 }
-#zold{
+
+.level1 .zold {
     background-color: green;
 }
-#sarga{
+
+.level1 .sarga {
     background-color: yellow;
 }
-#lila{
+
+.level1 .lila {
     background-color: purple;
+}
+
+.level2 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.level2 .zold {
+    background-color: green;
+    flex: 1;
+}
+
+.level2 .sarga {
+    background-color: yellow;
+    flex: 2;
+}
+
+.level2 .lila {
+    background-color: purple;
+    flex: 1;
 }
