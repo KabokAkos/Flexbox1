@@ -65,3 +65,27 @@
     background-color: purple;
     flex: 1;
 }
+
+.level4 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.level4 .zold {
+    background-color: green;
+    flex: 1;
+    order: 1;
+}
+
+.level4 .sarga {
+    background-color: yellow;
+    flex: 2;
+    order: 3;
+}
+
+.level4 .lila {
+    background-color: purple;
+    flex: 1;
+    order: 2;
+}
