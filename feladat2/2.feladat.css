@@ -63,3 +63,20 @@
     list-style: none;
 }
 
+.alap4{
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.alap4 .lila{
+    width: 100px;
+    height: 100px;
+    list-style: none;
+    background-color: purple;
+    margin-right: 5px;
+}
