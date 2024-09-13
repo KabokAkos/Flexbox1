@@ -1,0 +1,29 @@
+.alap1{
+    width: 800px;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.alap1 .zold{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+.alap1 .sarga{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+.alap1 .lila{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
