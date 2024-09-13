@@ -1,0 +1,65 @@
+.alap1{
+    width: 800px;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.alap1 .zold{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+.alap1 .sarga{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+.alap1 .lila{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+
+.alap2{
+    height: 400px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+}
+
+.alap2 .lila{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    list-style: none;
+    margin-right: 5px;
+}
+
+.alap3{
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.alap3 .lila{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    list-style: none;
+}
