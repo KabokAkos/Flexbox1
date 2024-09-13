@@ -27,3 +27,21 @@
     width: 100px;
     height: 100px;
 }
+
+.alap2{
+    height: 400px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+}
+
+.alap2 .lila{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    list-style: none;
+    margin-right: 5px;
+}
