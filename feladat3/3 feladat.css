@@ -1,25 +1,25 @@
-.lila{
+.kontener1 .lila {
     background-color: purple;
     width: 75%;
     height: 30px;
     position: absolute;
 }
 
-.sarga{
+.kontener1 .sarga {
     background-color: yellow;
     width: 70%;
     height: 100%;
     flex: 2;
 }
 
-.zold{
+.kontener1 .zold {
     background-color: green;
     width: 30%;
     height: 100%;
     flex: 1;
 }
 
-.kontener{
+.kontener1 {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 1%;
@@ -31,7 +31,7 @@
     flex-direction: column;
 }
 
-.also{
+.kontener1 .kozepso {
     width: 100%;
     height: 550px;
     display: flex;
@@ -39,7 +39,7 @@
     justify-content: center;
 }
 
-.felso{
+.kontener1 .felso {
     height: 45px;
     width: 100%;
     background-color: purple;
@@ -49,11 +49,76 @@
     align-items: center;
 }
 
-.felso .kek{
+.kontener1 .felso .kek {
     width: 85px;
     height: 25px;
     background-color: cyan;
     list-style: none;
     margin-right: 5px;
     margin-left: 15px;
+}
+
+.kontener2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.kontener2 .felso {
+    height: 55px;
+    width: 100%;
+    background-color: purple;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.5%;
+}
+
+.kontener2 .felso .kek {
+    width: 85px;
+    height: 35px;
+    background-color: cyan;
+    list-style: none;
+    margin-right: -55px;
+    margin-left: 75px;
+}
+
+.kontener2 .kozepso {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kontener2 .sarga {
+    background-color: yellow;
+    width: 70%;
+    height: 150%;
+    flex: 2;
+    margin-right: 5%;
+    margin-left: 0.5%
+}
+
+.kontener2 .zold {
+    background-color: green;
+    width: 25%;
+    height: 150%;
+    flex: 1;
+    margin-left: 5%;
+    margin-right: 0.1%;
+}
+
+.also{
+    background-color: grey;
+    height: 55px;
+    width: 90%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15%;
 }
