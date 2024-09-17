@@ -8,21 +8,21 @@
 .sarga{
     background-color: yellow;
     width: 70%;
-    height: 25%;
+    height: 100%;
     flex: 2;
 }
 
 .zold{
     background-color: green;
     width: 30%;
-    height: 25%;
+    height: 100%;
     flex: 1;
 }
 
 .kontener{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
     margin-bottom: 30%;
     display: flex;
     align-items: center;
@@ -33,16 +33,14 @@
 
 .also{
     width: 100%;
-    height: 300px;
-    margin-top: 10px;
+    height: 550px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
 }
 
 .felso{
-    height: 50px;
+    height: 45px;
     width: 100%;
     background-color: purple;
     display: flex;
@@ -52,7 +50,7 @@
 }
 
 .felso .kek{
-    width: 75px;
+    width: 85px;
     height: 25px;
     background-color: cyan;
     list-style: none;
