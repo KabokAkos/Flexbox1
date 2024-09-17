@@ -1,0 +1,61 @@
+.lila{
+    background-color: purple;
+    width: 75%;
+    height: 30px;
+    position: absolute;
+}
+
+.sarga{
+    background-color: yellow;
+    width: 70%;
+    height: 25%;
+    flex: 2;
+}
+
+.zold{
+    background-color: green;
+    width: 30%;
+    height: 25%;
+    flex: 1;
+}
+
+.kontener{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.also{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.felso{
+    height: 50px;
+    width: 100%;
+    background-color: purple;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+}
+
+.felso .kek{
+    width: 75px;
+    height: 25px;
+    background-color: cyan;
+    list-style: none;
+    margin-right: 5px;
+    margin-left: 15px;
+}
