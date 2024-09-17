@@ -23,7 +23,7 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 1%;
-    margin-bottom: 30%;
+    margin-bottom: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,6 +64,7 @@
     justify-content: center;
     position: relative;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .kontener2 .felso {
@@ -112,7 +113,7 @@
     margin-right: 0.1%;
 }
 
-.also{
+.kontener2 .also{
     background-color: grey;
     height: 55px;
     width: 90%;
@@ -122,3 +123,61 @@
     align-items: center;
     margin-top: 15%;
 }
+
+.kontener3{
+    background-color:sandybrown;
+    display: flex;
+    align-items:flex-start ;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.kontener3 .kek{
+    background-color: cyan;
+    width: 35%;
+    height: 75px;
+}
+
+.kontener3 .skek{
+    background-color: blue;
+    width: 35%;
+    height: 75px;
+    margin-bottom: 10%;
+}
+
+.kontener3 .arany{
+    background-color: goldenrod;
+    width: 80px;
+    height: 450px;
+    margin-right: 5%;
+}
+
+.kontener3 .piros{
+    background-color: red;
+    width: 500px;
+    height: 450px;
+}
+
+.kontener3 .lila{
+    background-color: purple;
+    width: 80px;
+    height: 450px;
+    margin-left: 5%;
+}
+
+.kontener3 .fekete{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 75px;
+    right: 75px;
+}
+
+.kontener3 .kozepso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
